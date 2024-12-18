@@ -1,0 +1,7 @@
+﻿services:
+    netcodehub.papercut:
+        image: changemakerstudiosus/papercut-smtp:latest
+        container_name: netcodehub.papercut
+        ports:
+            - 8080:80
+            - 25:25 
